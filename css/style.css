@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Eras Light ITC';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Eras Light ITC'), url('../fonts/ERASLGHT.woff') format('woff');
+}
+
+body{
+	font-family: "Eras Light ITC",  sans-serif;
+}
+
+.head-info{
+	padding: 10px;
+}
+
+.ico{
+	text-align: center;
+}
+
+.ico img{
+	height: 40px;
+}
+
+.logo{
+	text-align: center;
+}
+
+.navbar{
+	border-radius: 0px;
+	text-transform: uppercase;
+}
+
+ul.navbar-nav{
+	width: 100%;
+}
+
+ul.navbar-nav li{
+	width: 20%;
+	text-align: center;
+}
+
+.navbar-nav li a.main, .navbar-nav > li > a.main:hover{
+	text-decoration: underline;
+}
