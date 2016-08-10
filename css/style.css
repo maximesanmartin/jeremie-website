@@ -9,6 +9,10 @@ body{
 	font-family: "Eras Light ITC",  sans-serif;
 }
 
+h1{
+	font-size: 38pt;
+}
+
 .head-info{
 	padding: 10px;
 }
@@ -28,6 +32,7 @@ body{
 .navbar{
 	border-radius: 0px;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 ul.navbar-nav{
@@ -41,4 +46,19 @@ ul.navbar-nav li{
 
 .navbar-nav li a.main, .navbar-nav > li > a.main:hover{
 	text-decoration: underline;
+}
+
+.item{
+	height: 350px;
+}
+
+.carousel-caption{
+	left: 15%;
+	right: 15%;
+	padding-bottom: 50px;
+}
+
+.activity{
+	text-transform: uppercase;
+	text-align: center;
 }
