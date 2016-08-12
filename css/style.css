@@ -61,4 +61,89 @@ ul.navbar-nav li{
 .activity{
 	text-transform: uppercase;
 	text-align: center;
+	font-weight: bolder;
+}
+
+.act{
+	padding: 0;
+	height: 50px;
+}
+
+.button{
+	border-radius: 0;
+	border: none;
+	font-size: 13pt;
+	padding: 12px 30px;
+}
+
+.act button{
+	width: 90%;
+	background-color: white;
+	color: black;
+}
+
+.description{
+	text-align: justify;
+	padding: 10px;
+}
+
+.cabinet{
+	background-color: #DDD;
+	padding: 20px;
+}
+
+.cabinet h2{
+	margin-top: 0;
+}
+
+.cabinet .col-sm-6{
+	position: relative;
+	padding: 10px;
+}
+
+.actus{
+	text-align: center;
+}
+
+.actus img{
+	width: 100%;
+}
+
+.date{
+	background-color: #B71D1D;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	padding: 5px;
+}
+
+.main .date{
+	width: 60px;
+}
+
+.actus > .col-sm-6{
+	padding: 0;
+}
+
+.others .date{
+	width: 40px;
+	font-size: 8pt;
+}
+
+.others .col-sm-12{
+	margin-bottom: 10px;
+}
+
+.others .col-sm-6{
+	padding: 0;
+}
+
+.others h5{
+	margin: 0;
+	padding: 0 10px;
+}
+
+.actus h4, .actus h5{
+	text-align: left;
 }
